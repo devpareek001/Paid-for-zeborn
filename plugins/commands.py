@@ -95,13 +95,12 @@ async def start(client, message):
                     InlineKeyboardButton('+ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ +', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true')
                 ],[
                     InlineKeyboardButton('🧧 ᴛʀᴇɴᴅɪɴɢ', callback_data="topsearch"),
-                    InlineKeyboardButton('🎟️ ᴜᴘɢʀᴀᴅᴇ', callback_data="premium"),
+                    InlineKeyboardButton('🍁 𝚂𝚞𝚙𝚙𝚘𝚛𝚝', url="https://t.me/+Dudb1wTj041iMDQ5"),
                 ],[
                     InlineKeyboardButton('♻️ ᴅᴍᴄᴀ', callback_data='disclaimer'),
                     InlineKeyboardButton('👤 ᴀʙᴏᴜᴛ', callback_data='me')
-                ],[
-                    InlineKeyboardButton('🚫 ᴇᴀʀɴ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ 🚫', callback_data="earn")
                 ]]
+                    
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
             photo=random.choice(PICS),
