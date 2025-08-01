@@ -1342,11 +1342,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
                     InlineKeyboardButton('+ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ +', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('🧧 ᴛʀᴇɴᴅɪɴɢ ', callback_data="topsearch"),
+                    InlineKeyboardButton('ᴛᴏᴘ sᴇᴀʀᴄʜɪɴɢ ⭐', callback_data="topsearch"),
                     InlineKeyboardButton('🍁 𝚂𝚞𝚙𝚙𝚘𝚛𝚝', url="https://t.me/+Dudb1wTj041iMDQ5"),
                 ],[
-                    InlineKeyboardButton('♻️ ᴅᴍᴄᴀ', callback_data='disclaimer'),
-                    InlineKeyboardButton('👤 ᴀʙᴏᴜᴛ ', callback_data='me')
+                    InlineKeyboardButton('ʜᴇʟᴘ 📢', callback_data='disclaimer'),
+                    InlineKeyboardButton('ᴀʙᴏᴜᴛ 📖', callback_data='me')
                 ]]
                     
         reply_markup = InlineKeyboardMarkup(buttons)
