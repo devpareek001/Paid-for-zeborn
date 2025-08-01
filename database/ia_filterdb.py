@@ -86,7 +86,7 @@ async def save_file(media):
             return False, 0
         try:
             primary_db_size = await check_db_size(db)
-            if primary_db_size >= 407:
+            if primary_db_size >= 440:
                 print("Primary Database Is Low On Space. Switching To Secondary DB.")
                 saveMedia = Media2
         except Exception as e:
