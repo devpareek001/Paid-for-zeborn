@@ -22,7 +22,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "")
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://graph.org/file/76a3cd37afeffa7822d88-5fb6b45aff64ef9737.jpg https://graph.org/file/c9999ae668e0cefeb70d0-2a7c21c6877f74d339.jpg')).split() 
+PICS = (environ.get('PICS', 'https://graph.org/file/6420969a212679160d8ea-4fd062764a1ebca3d3.jpg https://envs.sh/s/vVv5dn04LU1mmsUS1OlaTg/Eoj.jpg https://envs.sh/s/vVv5dn04LU1mmsUS1OlaTg/Eoj.jpg')).split() 
 NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/62efbcc4e7580b76530ba.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://graph.org/file/e215d12bfd4fa2155e90e.mp4")
 SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/13702ae26fb05df52667c.jpg")
@@ -57,7 +57,7 @@ UPDATE_CHANNEL_LNK = environ.get('UPDATE_CHANNEL_LNK', 'https://t.me/+OYkzgfnCzg
 
 AUTH_CHANNEL = environ.get("AUTH_CHANNEL", "") # add multiple channels here, separated by single space
 AUTH_CHANNEL = [int(ch) for ch in AUTH_CHANNEL.strip().split()] if AUTH_CHANNEL else []
-AUTH_REQ_CHANNEL = environ.get('AUTH_REQ_CHANNEL', '-1002690296556 -1002678561424') # add multiple channels here, separated by single space
+AUTH_REQ_CHANNEL = environ.get('AUTH_REQ_CHANNEL', '-1002599119579 -1002767330984') # add multiple channels here, separated by single space
 AUTH_REQ_CHANNEL = [int(ch) for ch in AUTH_REQ_CHANNEL.strip().split()] if AUTH_REQ_CHANNEL else []
 
 IS_VERIFY = is_enabled('IS_VERIFY', False)
