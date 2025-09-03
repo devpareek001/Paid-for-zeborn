@@ -31,7 +31,7 @@ FSUB_IMG = (environ.get('FSUB_IMG', 'https://i.ibb.co/cShkPjcZ/x.jpg')).split()
 
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6914788581 5186213362').split()] 
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002116767957').split()]
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002782726608'))  
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1003017167191'))  
 BIN_CHANNEL = int(environ.get('BIN_CHANNEL', '-1002782726608'))  
 MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002741354531'))  
 PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002782726608')) 
